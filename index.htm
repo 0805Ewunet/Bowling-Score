@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Bowling Score challange2</title>
+        <link href="https://fonts.googleapis.com/css?family=Anton|Roboto+Condensed" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+    <body>
+        <div class="gen-cell">
+            <h1 class="title">Bowling Score &nbsp;<span class="icon">🎳</span></h1>
+            <span class="subtitle">Scores entered through a console,where the magic happens &#x263A;. To get into the
+                console pressF12 in the
+                keyboard or rightclick anywhere in the page and select inspect, then next to Elements select Console.
+
+
+            </span>
+            <div id="legend">
+                <span class="key" style="background-color:#c9f364">
+                    X = strike</span>
+                <span class="key" style="background-color:#5b8500">
+                    / = spare</span>
+                <span class="key" style="background-color:#FF0000">
+                    / = miss</span>
+            </div>
+            <input id="game-input" type="text" />
+            <button id="generator">Generate Score&nbsp;<span class="shortcut">(or &#9166;)</span></button>
+            <span id="score-display"></span>
+        </div>
+
+
+
+        <script src="bowling.js"></script>
+        <script src="interface.js"></script>
+    </body>
+
+</html>
