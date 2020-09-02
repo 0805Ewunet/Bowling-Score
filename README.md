@@ -1,4 +1,3 @@
-This application is to score a game of bowling for an individual. Given the number of pins knocked down with each roll, you will compute the total score this person has achieved.
 
 Scores entered through a terminal / console.
 Open the console and see the magic.
